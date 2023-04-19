@@ -1,0 +1,44 @@
+
+@import "navbar.css";
+@import "tianmaoxinpin.css";
+@import "activities-wrapper.css";
+@import "recommend-item.css";
+
+:root{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+
+
+/*内容展示区域，使用grid布局*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* 设置为 1 列 */
+    grid-template-rows: 146px 184px auto; /* 设置为 3 行，分别为 146px，184px 和 自动（随内容增加）高度 */
+    width: 100%;
+
+}
+
+.icons-wrapper,
+.activities-wrapper,
+.recommend-item-wrapper {
+    width: 95.2%;
+}
+
+
+
+
+

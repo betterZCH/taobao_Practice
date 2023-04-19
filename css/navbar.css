@@ -1,0 +1,77 @@
+.nav {
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    width: 100vw;
+    height: 49px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*taobao logo*/
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo-img {
+    width: 56px;
+    height: 21px;
+    margin: 14px 15px;
+}
+
+/*淘宝顶部搜索栏*/
+.search {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border: 1px solid #ff5000;
+    width: 236px;
+    border-radius: 50px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.search-input {
+    display: inline-block;
+    width: 99px;
+    height: 32px;
+    margin: 0 0 0 10px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.search-button {
+    display: inline-block;
+    color: white;
+    width: 62px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-image: linear-gradient(to right, rgb(255, 141, 14), rgb(255, 80, 0));
+    font-size: 14px;
+    border-radius: 16px;
+    position: absolute;
+    right: 1px;
+
+}
+
+
+/*签到*/
+.sign-in {
+    width: auto;
+    height: auto;
+}
+
+.sign-in-img {
+    width: 33px;
+    height: 33px;
+    margin: auto 6.5px;
+}
+
+
+/*TODO:顶部搜索栏置顶效果*/

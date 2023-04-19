@@ -1,0 +1,134 @@
+.recommend-container{
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    flex-wrap: wrap;
+    width: 375px;
+    height: auto;
+    padding: 0 7.5px 12px 7.5px;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+.recommend-item-wrapper{
+    display: flex;
+    width: 360px;
+
+}
+
+.recommend-r{
+    width: 180px;
+    height: auto;
+}
+.recommend-l{
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+.scroll-item{
+    width: 171px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.scroll-img{
+    width: 171px;
+    height: 250px;
+    border-radius: 6px;
+}
+/*设置推荐物品*/
+.recommend-item{
+    margin:9px 4.5px 0 4.5px;
+    border-radius: 6px;
+    width: 171px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: rgb(255,255,255);
+    overflow: hidden;
+}
+.recommend-item-img{
+    width: 171px;
+    height:171px
+}
+.recommend-item-title-wrapper{
+    width: 171px;
+    padding: 0 9px 0 10px;
+    text-decoration: none;
+
+}
+.recommend-item-title{
+    width: 152px;
+    height: 37px;
+    margin-top: 11.5px;
+    overflow: hidden;
+
+}
+.recommend-describe{
+    color: rgb(51,51,51);
+    font-size: 13px;
+    line-height: 18.5px;
+    height: auto;
+    width: auto;
+
+}
+.recommend-item-box{
+    margin-top: 11px;
+    width: 152px;
+    height: 20px;
+    line-height: 20px;
+
+}
+.currency-types{
+    width: auto;
+    height: auto;
+    color: rgb(255,85,0);
+    font-size: 11px;
+    line-height: 20px;
+
+}
+.recommend-price{
+    width: auto;
+    height: auto;
+    color: rgb(255,85,0);
+    font-size: 14px;
+    line-height: 16px;
+}
+.recommend-payed{
+    margin-top: 2px;
+    color: rgb(153,153,153);
+    font-size: 11px;
+    line-height: 20px;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

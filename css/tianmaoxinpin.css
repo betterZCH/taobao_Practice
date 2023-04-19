@@ -1,0 +1,54 @@
+/*天猫新品等展示区*/
+.icons-wrapper {
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    height: 146px;
+    padding: 0 3px 0 3px;
+    justify-self: center;
+    align-self: center;
+    overflow-x: auto;
+}
+
+.icons-wrapper-inner {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 160%;
+
+}
+
+.icons-items-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.icons-items-wrapper {
+    height: 132px;
+    scrollbar-width: none;
+}
+
+.icons-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 61px;
+    height: 66px;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.icons-img {
+    width: 61px;
+    height: 48px;
+}
+
+.icons-title {
+    font-size: 13px;
+    display: block;
+    height: 13px;
+    width: 61px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*TODO:天猫新品滚动条*/
+/* WebKit和Blink内核浏览器 */

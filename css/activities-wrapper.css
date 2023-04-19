@@ -1,0 +1,93 @@
+
+/*聚划算等*/
+.activities-wrapper {
+    height: 184px;
+    margin: 6px 9px 0 9px;
+    border-radius: 12px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.activities-item{
+    position: relative;
+    width: 178.5px;
+    height: 92px;
+    display: flex;
+    outline-color: rgb(0,0,0);
+}
+.activities-hd{
+    display: flex;
+    position: absolute;
+    top:3px;
+    left: 0;
+    height: 22px;
+    align-items: center;
+}
+/*聚划算等标题*/
+.activities-item-title{
+    color:rgb(17,17,17);
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 6px;
+    height: 22px;
+    line-height: 22px;
+    -webkit-font-smoothing: antialiased;
+
+}
+/*品牌折扣等副标题*/
+.activities-item-subtitle{
+    background-color: rgb(255,66,0);
+    border-radius: 2px;
+    color: rgb(255,255,255);
+    font-size: 11px;
+    height: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0 3px 0 3px;
+    margin-left: 3px;
+
+}
+
+/*左侧活动图片*/
+.activities-item-left{
+    margin:24px 0 0 13px;
+}
+.activities-img-left{
+    width: 63px;
+    height: 63px;
+}
+
+
+/*右侧活动图片*/
+.activities-item-right{
+    margin:7px 0 0 17px;
+}
+.activities-img-right{
+    width: 80px;
+    height: 80px;
+}
+
+/*每个宫格之间的分割线*/
+.divider-line-row{
+    background-color: rgb(238,238,238);
+    width: 345px;
+    height: 0.5px;
+    position: absolute;
+    top: 92px;
+    left: 5.5px;
+}
+.divider-line-column{
+    background-color: rgb(238,238,238);
+    width: 0.5px;
+    height: 172px;
+    position: absolute;
+    top: 5.5px;
+    left: 178.5px;
+}
+
+/*TODO:遮罩*/
+
